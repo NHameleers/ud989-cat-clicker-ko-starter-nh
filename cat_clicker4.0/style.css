@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+}
+
+[class*='col-'] {
+  float: left;
+}
+.col-1-2 {
+  width: 49%;
+}
+#cat-image {
+  width: 75%;
+  height: auto;
+}
+.cat-div {
+    display: inline-block;
+    margin: 1%;
+    border: 1px solid black;
+}
+
+.cat-div img {
+  width: 40%;
+  height: auto;
+}

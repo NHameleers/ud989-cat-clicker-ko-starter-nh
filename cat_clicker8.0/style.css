@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+}
+
+[class*='col-'] {
+  float: left;
+}
+.col-1-2 {
+  width: 49%;
+}
+#cat-display {
+  height: 90vh;
+}
+#cat-list {
+  height: 90vh;
+  overflow: auto;
+}
+#cat-image {
+  width: 75%;
+  height: auto;
+}
+.cat-div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 1%;
+  border: 1px solid black;
+}
+
+.cat-div img {
+  width: 60%;
+  height: auto;
+}
